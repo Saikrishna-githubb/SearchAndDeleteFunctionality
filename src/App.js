@@ -40,7 +40,7 @@ class App extends Component {
       searchInput: event.target.value,
     })
   }
-
+// AddNewLine
   render() {
     const {searchInput} = this.state
     const searchUsersList = userDetailsList.filter(eachUser =>
